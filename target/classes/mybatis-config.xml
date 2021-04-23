@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+   <typeAliases>
+      <typeAlias type="com.mega.project.CPUVO2" alias="cpuVO2"></typeAlias>
+      <typeAlias type="com.mega.project.MBVO2" alias="mbVO2"></typeAlias>
+      <typeAlias type="com.mega.project.GraphVO2" alias="graphVO2"></typeAlias>      
+      <typeAlias type="com.mega.project.MemoryVO2" alias="memoVO2"></typeAlias>            
+   </typeAliases>
+   <mappers>
+      <mapper resource="mapper/cpuMapper2.xml" />
+      <mapper resource="mapper/mbMapper2.xml" />
+      <mapper resource="mapper/graphMapper2.xml" />
+      <mapper resource="mapper/memoMapper2.xml" />
+   </mappers>
+</configuration>
